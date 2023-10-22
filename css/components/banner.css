@@ -1,0 +1,63 @@
+.banner{
+	background-image: linear-gradient(0deg, rgb(0,0,0,0.6) 0%, rgb(0,0,0,0.6) 100%), url("../../images/background.avif");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 0px 0px;
+	margin-bottom:0%;
+	background-position: top;
+	flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+	width: 10%;
+}
+.banner h1{
+	font-size: 500%;
+	margin: 5%;
+	margin-bottom: 2%;
+	margin-top: 0%;
+}
+.banner h2{
+	font-size: 200%;
+	margin: 5%;
+	margin-bottom: 2%;
+}
+.banner p{
+	font-size: 100%;
+	font-weight: lighter;
+	margin-left: 5%;
+}
+
+.search {
+	width: 50%;
+    margin-left: 5%;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    margin-top: 5%;
+  }
+    
+.chercher {
+	background-color:#eb6534;
+	color: #ffffff;
+	font-family: 'Mulish', sans-serif;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    padding: 10px 20px;
+    border: 0;
+    font-size: 20px;
+  }
+
+.autre{
+flex-direction: column;
+  display: flex;	
+}

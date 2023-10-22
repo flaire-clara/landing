@@ -1,0 +1,43 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/navigation.css");
+
+li{
+  list-style: none;
+}
+
+
+body {
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  justify-content: left;
+  font-size: 18px;
+  margin: 0px;
+  background: linear-gradient(293deg, rgb(6, 62, 34) 0%, rgb(105, 39, 0) 100%);
+}
+h1, h2, h3 {
+  font-family: 'Roboto', serif;
+  font-weight: bold;
+  margin: 0px;
+}
+
+p{
+	font-size: 100%;
+	width: 460px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top{
+text-align: center;
+margin-top: 6%;
+color: white;
+font-size: 300%;
+}
